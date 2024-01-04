@@ -1,10 +1,8 @@
 
 // Auth Config
-import { Amplify } from 'aws-amplify';
 import { useEffect, useState } from 'react'
 import { withAuthenticator } from '@aws-amplify/ui-react';
 import '@aws-amplify/ui-react/styles.css';
-import config from './amplifyconfiguration.json';
 import { getCurrentUser, deleteUser } from 'aws-amplify/auth';
 import { generateClient } from 'aws-amplify/api';
 import {
@@ -17,7 +15,6 @@ import {
 } from './graphql/queries'; 
 import './App.css'
 
-Amplify.configure(config);
 
 // GraphQL API config 
 
