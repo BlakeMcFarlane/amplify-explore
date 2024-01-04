@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+
+.users {
+  
+}
+.user-box {
+  margin-bottom: 10px; /* Adjust the value as needed */
+  background-color:#282c34;
+
+}
